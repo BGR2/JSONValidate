@@ -4,9 +4,9 @@ JSON validator in C#
 # Basic Introduction
 This tool can do 3 tasks:
 
-- -create : Will create a .json file with the expiration date [1 year as default],
-- -validate : Checks the .json file included with the filepath,if not valid,will throw a error message incidating the .json file is invalid,if correct,will continue the script.
-- -replace : Replaces the file values [for a example: creation date,expiration value (something like 2024(y/year)05(m/month)02(d/day)0010(hour and minute,basically 00:00),202405020010
+- -create (FILENAME,WITH .JSON) (WHERE TO PUT): Will create a .json file with the expiration date [1 year as default],
+- -validate (FULL FILE LOCATION) : Checks the .json file included with the filepath,if not valid,will throw a error message incidating the .json file is invalid,if correct,will continue the script.
+- -replace (PROPERTIE NAME) (VALUE): Replaces the file values [for a example: creation date,expiration value (something like 2024(y/year)05(m/month)02(d/day)0010(hour and minute,basically 00:00),202405020010
 
 # Required DLL'S
 - Newtonsoft.Json
